@@ -206,7 +206,39 @@ Accept-Language: zh-CN,zh;q=0.9\r\n\r\n\
 // #define HASH_STR             "clientId"DEVICE_ID"deviceName"DEVICE_NAME"productKey"PRODUCT_KEY"timestamp%s"
 #define HASH_STR             "clientId%s.%sdeviceName%sproductKey%stimestamp%s"
 
+/* This is taken from tests/data_files/test-ca-sha256.crt. */
+/* BEGIN FILE string macro TEST_CA_CRT_RSA_SHA256_PEM tests/data_files/test-ca-sha256.crt */
 
+#define _TEST_KEY_RSA_SHA256_PEM                                         \
+    "-----BEGIN PRIVATE KEY-----\n" \
+    "MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCDZvy7ISj+vb41\n" \
+    "1UoDoZ2RHNcs0/Ia9q5apcg88KXjIgrNcwX0UJfHkntazPfF4qsCa5yaEPtHuoca\n" \
+    "7NnwulfRjMYpkS6KDQ28fCLM3xj5IqzjDBS6yV6l2bqjwM4OeOJu8j97OZPQhzo2\n" \
+    "HW8qElLdw5h35/UDOYTaF7hty5iqnV6xxmt3RRxUwLx4j4x1tMncLOE+J8oo/TMf\n" \
+    "aIAsFlcjFZca2mL0FCp/kjI3hX3gs/mJBRCbBRHfMG60iHDny3aJ+FA3Bh9GriZj\n" \
+    "Ta3Gq5/GLEjnFaUtpj3l4Va4CkyLm2YS+errAHykA3E1jD5wbiEtUf9v46TbsOV+\n" \
+    "OVwBjYBnAgMBAAECggEADX5j8auEFDTT9Z9DjH/qOF6n0hipwg8W9IQVvfxQbLSw\n" \
+    "O0zWjbJBA+OM+1QVFaMjQIpgeInJ5CHJggBUmR3pqsE0EEyyZMbWZEazJCq828it\n" \
+    "zFsPPecz6wAi5HIGNwI+7nm9/x94iG96kNgQ9FcRX2iYnaeaR4x+kg7hh5TixpJg\n" \
+    "1WdWEu5asErJ1CFzT/xUFh61LC7yK246dqH92wCBGFhi8AgpjahK+x/wywWfBgZb\n" \
+    "0OBShC6A1pMRm3W4CZWjK95LbBeHocLkd3Lk75UmGm9AUQCtGbjr5+4Flg1cOVcd\n" \
+    "mymjd/7nmuKRvnessk552zMESwC4czH3hnijTTiVIQKBgQC/MO7O8fxI3ts7rIaJ\n" \
+    "unfYztKXm5pRwSaPwWQ/F5UAxapL4XPlUVRbIL64wesZE3lv2OdxqpNvBqP6zewz\n" \
+    "zaPPdYbV1HNOUI4sMfaaZyz143mCg7VwvMdQ+UMsYZfTnvqoAycqm7nO7zTY4HVZ\n" \
+    "Bn6a0UFgwOeuRByNRmx/DzILWQKBgQCv8bwD5kRGne7bJE/vlNUrYujOqQPBzkyj\n" \
+    "VaF8w1EtQDmkheRqFzq6A813rElyIO/pf5K6FGPAUqf8XQMdQJYWjUY3kxMX0Pqw\n" \
+    "111zl7ZwsPfmjyiWpDjc6moSJG2rQsXBjP/D0rkwpKwIM92kStn9IOtv+Kof+zmO\n" \
+    "mLdq/QMxvwKBgGEhrAFpAOHIjpqXgNZR7HcyQ90QCWuFdGDOQG6pPWLiCS15wZZ8\n" \
+    "Jh4R2bMlmZnoweYnzRV7MmHSftZ5bYm37IQGUlUqFNZxqHkdfQpeZoIZae77mN9I\n" \
+    "mP4zVIQkpKy3dOKMj4ZfDRvrfO69wgBTg1iF/O/5sPpg0hyX7aDziFopAoGAR1AA\n" \
+    "d8gmFkU/Id1m9OFrQWmWmOTSXARE9dLoYEw+I8wrUO7f9Mwzhl+yMPZI0pRdCVQm\n" \
+    "4XsQL0yRP+1nLL0X2E4sjqvzCi0u3ux7uTVdwfFImU+fEOfBEHGGypGvTcIDq359\n" \
+    "0B4h54BnJe/3vvaDwmBMbRbpxYqq+owVk6y3VbsCgYEAp3HSs2UC31u+rqmPsw0Z\n" \
+    "9+t1RMed8zAGJfQU7r2+RBDIHQn53yaCEU6IaPj5YcR7sa7tuveMBlJGgn9KPiuy\n" \
+    "lIa4xDq7iU5UkjLUhWauOMlYUQ4AL7yfgWpVSY51YDC75pu4KO9U+iet7trlkAxX\n" \
+    "9DAfSAfDapII2VUTfGZncsw=\n" \
+    "-----END PRIVATE KEY-----\n"
+/* END FILE */
 
 
 // AccessKeySecret
